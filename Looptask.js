@@ -103,7 +103,7 @@
 // }
 
 // Q - 4
-   
+
 // {
 //   let Num = 50;
 //   let guessCount = 0;
@@ -126,7 +126,7 @@
 //     {
 //       alert("guess is too high. Try again.");
 //     } 
-    
+
 //     else if (user < Num) 
 //     {
 //       alert("guess is too low. Try again.");
@@ -139,7 +139,7 @@
 //     }
 //   }
 // }
- 
+
 // Q - 5
 
 {
@@ -162,7 +162,7 @@
     n2 = n3;
     n3 = n1 + n2;
   }
-} 
+}
 
 // {
 //   const num = prompt();
@@ -381,18 +381,18 @@
 // Q -13
 
 // {
-  // let userInput;
+// let userInput;
 
-  // while (true) {
-  //   userInput = prompt("Enter a number (type 'exit' to stop loop):");
+// while (true) {
+//   userInput = prompt("Enter a number (type 'exit' to stop loop):");
 
-  //   if (userInput === "exit") {
-  //     document.write("Exiting the loop based on user input." + "<br>");
-  //     break;
-  //   }
+//   if (userInput === "exit") {
+//     document.write("Exiting the loop based on user input." + "<br>");
+//     break;
+//   }
 
-  //   document.write("You entered: " + userInput + "<br>");
-  // }
+//   document.write("You entered: " + userInput + "<br>");
+// }
 
 //   let sum = 0, num;
 
@@ -404,7 +404,7 @@
 //         break;
 //     }
 
-   
+
 //     sum += num;
 
 // }
@@ -474,4 +474,19 @@
 //     console.log(u);
 //     u++;
 //   }
-// }                                                
+// }  
+
+
+// const ani = (value) => {
+//   for (let a = value; a > 0; a--) {
+//     let semstring = "";
+//     for (let b = 1; b < a; b++) {
+//       semstring += " ";
+//     }
+//     for (let c = 0; c <= value - a; c++) {
+//       semstring += "*";
+//     }
+//     document.write(semstring + "<br>");
+//   }
+// }
+// ani(15)

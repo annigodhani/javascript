@@ -208,4 +208,8 @@ If Condition is true? Then value X : Otherwise value Y
 
 let aggriment = 0
 let age = aggriment == 0 ? "Login" : "Logout"
-document.write(age)
+console.log(age)
+
+
+
+

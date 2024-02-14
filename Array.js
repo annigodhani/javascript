@@ -1,10 +1,10 @@
-/* Javascript Array */  
+/* Javascript Array */
 
-let newarry = [1,false,"string"]
+let newarry = [1, false, "string"]
 console.log(newarry)
 console.log(newarry.length)
 
-let newarry2 = ["Apple" , "Banana" , "Watermelon" ,  , "Lichi"]
+let newarry2 = ["Apple", "Banana", "Watermelon", , "Lichi"]
 console.log(newarry2)
 console.log(newarry2[4])
 console.log(Object.keys(newarry2))
@@ -17,9 +17,9 @@ console.log(Object.keys(newarry2))
 newarry2[0] = "Graps"
 console.log(newarry2)
 
-let newstring  = newarry2.toString()
+let newstring = newarry2.toString()
 console.log(newstring)
-console.log(typeof(newstring))
+console.log(typeof (newstring))
 
 
 // Array length properties
@@ -43,11 +43,11 @@ Array indexes start with 0:
 
 /* Array length properties */
 
-let arry = ["option-1" , "gamit" , false , 1 , "skill" , "development"];
+let arry = ["option-1", "gamit", false, 1, "skill", "development"];
 console.log(arry);
 console.log(arry[0]);
 console.log(arry[5]);
-arry.push("frontend");  
+arry.push("frontend");
 console.log(arry);
 arry.pop()
 arry.pop()
@@ -65,10 +65,10 @@ console.log(arry);
 /* The join() method also joins all array elements into a string. */
 
 {
-    let arry1 = ["option-1" , "gamit" , false , 1 , "skill" , "development"];
+    let arry1 = ["option-1", "gamit", false, 1, "skill", "development"];
     let arry2 = arry1.join("+")
     console.log(arry2);
-    console.log(typeof(arry2));
+    console.log(typeof (arry2));
 }
 
 /* Popping in javascript Array */
@@ -76,11 +76,11 @@ console.log(arry);
 {
     const fruits = ["Banana", "Orange", "Apple", "Mango"];
     document.getElementById("demo").innerHTML = fruits;
-    
-    document.getElementById("demo-1").innerHTML =  fruits.pop();
-    
+
+    document.getElementById("demo-1").innerHTML = fruits.pop();
+
     console.log(fruits);
-    
+
     console.log(fruits.length);
 }
 
@@ -90,7 +90,7 @@ console.log(arry);
     const fruits1 = ["Banana", "Orange", "Apple", "Mango"]
 
     document.getElementById("demo").innerHTML = fruits1
-    
+
     document.getElementById("demo-1").innerHTML = fruits1.pop()
     document.getElementById("demo-2").innerHTML = fruits1.pop()
     document.getElementById("demo-3").innerHTML = fruits1.pop()
@@ -130,12 +130,12 @@ console.log(arry);
 /* The shift() method removes the first array element and "shifts" all other elements to a lower index */
 
 {
-     let arry3 = ["option-1" , "gamit" , false , 1 , "skill" , "development"]
-     let arry4 = arry3.shift()
-     let arry5 = arry3.shift()
-     console.log(arry4)
-     console.log(arry3)
-     console.log(arry5) 
+    let arry3 = ["option-1", "gamit", false, 1, "skill", "development"]
+    let arry4 = arry3.shift()
+    let arry5 = arry3.shift()
+    console.log(arry4)
+    console.log(arry3)
+    console.log(arry5)
 }
 
 /*  The shift() method returns the value that was "shifted out" */
@@ -153,9 +153,9 @@ console.log(arry);
 /* The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements */
 
 {
-     let arryy = ["option-1" , "gamit" , false , 1 , "skill" , "development"]
-     arryy.unshift("OneAuthor")
-     console.log(arryy)
+    let arryy = ["option-1", "gamit", false, 1, "skill", "development"]
+    arryy.unshift("OneAuthor")
+    console.log(arryy)
 }
 
 /* The unshift() method returns the new array length */
@@ -196,30 +196,188 @@ console.log(arry);
 /* Use pop() or shift() instead. */
 
 {
-        let arrya = ["option-1" , "gamit" , false , 1 , "skill" , "development"]
-        console.log(arrya)
-        console.log(arrya.length)
-        delete arry[4]
-        console.log(arrya)
-        console.log(arrya.length)
-        
-        arrya.length = 20
-        console.log(arrya)
-        
-        arrya[16] = "skillQode"
-        console.log(arrya)
- }
- 
- /* Merging (Concatenating) Arrays */
- 
- {
+    let arrya = ["option-1", "gamit", false, 1, "skill", "development"]
+    console.log(arrya)
+    console.log(arrya.length)
+    delete arry[4]
+    console.log(arrya)
+    console.log(arrya.length)
 
-    let arry11 = ["javascript" , "c" , "c++" , "python" , "html" , "css"]
-    let arry22 = ["kotlin" , "dart" , "nodejs"  , "php" , "wordpress"]
-    let arry33 = ["boostrap" , "tailwind" , "reactjs" , "nextjs"]
+    arrya.length = 20
+    console.log(arrya)
 
-    let arry44 = arry11.concat(arry33 , arry22)
+    arrya[16] = "skillQode"
+    console.log(arrya)
+}
+
+/* Merging (Concatenating) Arrays */
+
+{
+
+    let arry11 = ["javascript", "c", "c++", "python", "html", "css"]
+    let arry22 = ["kotlin", "dart", "nodejs", "php", "wordpress"]
+    let arry33 = ["boostrap", "tailwind", "reactjs", "nextjs"]
+
+    let arry44 = arry11.concat(arry33, arry22)
 
     console.log(arry44)
-  
- }
+
+}
+
+/* The concat() method does not change the existing arrays. It always returns a new array */
+
+/* Splicing and Slicing Arrays */
+
+/* JavaScript Array splice() */
+
+// splice(start)
+// splice(start, deleteCount)
+// splice(start, deleteCount, item1)
+// splice(start, deleteCount, item1, item2)
+// splice(start, deleteCount, item1, item2, /* …, */ itemN)
+
+{
+    let ar = ["Ani", "Vijay", "Kartik", "Hari", "Varun", "Chirag"]
+    console.log(ar)
+
+    let arr = ar.splice(3, 3, "Gopal", "Vivek")
+    console.log(arr)
+    console.log(ar)
+
+}
+
+/* JavaScript Array slice() */
+
+// slice()
+// slice(start)
+// slice(start, end)
+
+{
+    let a1 = [45, 89, 21, 2, 57, 23]
+    console.log(a1)
+
+    let a2 = a1.slice(0, 3)
+    console.log(a2)
+    console.log(a1)
+}
+
+/*  Array.isArray */
+
+{
+    console.log(Array.isArray(17))
+}
+
+/*  javascript Sorting Array */
+
+{
+    let ary1 = ["Ani", "Kartik", "Vijay", "Hari", "Varun", "Gopal"]
+    console.log(ary1)
+
+    let ary2 = ary1.sort()
+    console.log(ary2)
+}
+
+/*  Reversing array */
+
+{
+    let arr1 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
+    console.log(arr1)
+
+    let arr2 = arr1.reverse()
+    console.log(arr2)
+}
+
+/*  Number Sort */
+
+{
+    let ay1 = [189, 45, 56, 128, 10, 150]
+    console.log(ay1)
+
+    let numbersorted = ay1.sort((a, b) => a - b)
+    console.log(numbersorted)
+}
+
+/*  javascript array map() */
+
+{
+    const number1 = [56, 798, 345, 35]
+    console.log(number1)
+    const number2 = number1.map(myFunction)
+
+    const number3 = number2.sort((a, b) => a - b)
+
+    console.log(number2)
+
+    function myFunction(value) {
+        return value * 2
+    }
+}
+
+
+/*  javascript Array flatMap() */
+
+{
+
+    let flatmap = [1, 2, 3, 4]
+
+    let flatmap1 = flatmap.flatMap((num) => num === 3 ? [1, 1] : 2)
+
+    console.log(flatmap1)
+}
+
+/* Javascript Array flat() */
+
+{
+    let flatarray = [10, 20, [22, 33, [44, 55, [66, 77]]]]
+    let flatmap2 = flatarray.flat(3)
+    console.log(flatmap2)
+}
+
+/* javascript array filter() */
+
+{
+
+    let filterarry = ["Anni", "Nikunj", "Vijay", "Gopal", "Hari", "Janak"]
+    let filterarry2 = filterarry.filter((word) => word.length < 5)
+    console.log(filterarry2)
+
+    let filterarry3 = filterarry2.sort()
+    console.log(filterarry3)
+
+}
+
+/*  javascript array fill method */
+
+{
+
+}
+
+/* javascript array copywithin() method */
+
+{
+    const alfa = ["A", "B", "C", "D", "E", "F"]
+    const newcopy = alfa.copyWithin(0, 3, 4)
+    console.log(newcopy)
+}
+
+/* javascript valueof() method */
+
+{
+    const fruitss = ["Banana", "Orange", "Lemon", "Apple", "Mango", "watermelon", "kiwi", "Olive"]
+    const newfruits = fruitss.valueOf()
+    console.log(newfruits)
+}
+
+/*  javascript flat() method */
+
+{
+    const numm = [1, 2, 3, [4, [5, 6, [7, 8, 9]]]]
+    const newarray1 = numm.flat()
+    const newarray2 = numm.flat(2)
+    const newarray3 = numm.flat(3)
+    const newarray4 = numm.flat(4)
+    console.log(newarray1)
+    console.log(newarray2)
+    console.log(newarray3)
+    console.log(newarray4)
+}

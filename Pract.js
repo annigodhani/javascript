@@ -180,3 +180,201 @@ let String50 = "Aniruddh Godhani"
 console.log(String50)
 let String51 = String50.includes("a")
 console.log(String51)
+
+//Q-1 Declare an empty array;
+
+let newarry = []
+console.log(newarry)
+
+// Q-2 Declare an array with more than 5 number of elements
+
+let a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log(a)
+
+// Q-3 Find the length of your array
+
+let v = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+console.log('length is' + ' ' + v.length)
+
+// Q-4 Get the first item, the middle item and the last item of the array
+
+let A = [1, 2, 3, 4, 5, 6, 7]
+let G = A[0]
+let V = A[Math.floor(A.length / 2)]
+let K = A[A.length - 1]
+
+console.log("G :", G)
+console.log("V :", V)
+console.log("K :", K)
+
+// Q-5 Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
+
+let N = [1, 'apple', true, { key: 'value' }, [2, 4, 6], null, undefined]
+let J = N.length
+
+console.log("N :", N)
+console.log("Length :", J)
+
+// Q-6 Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon
+// Print the array using console.log()
+// Print the number of companies in the array
+// Print the first company, middle and last company
+// Print out each company
+
+let Companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+console.log("Array :", Companies)
+console.log("Number of companies :", Companies.length)
+
+let first = Companies[0]
+let middle = Companies[Math.floor(Companies.length / 2)]
+let last = Companies[Companies.length - 1]
+
+console.log("First :", first)
+console.log("Middle :", middle)
+console.log("Last :", last)
+
+// Q-7 Change each company name to uppercase one by one and print them out
+// Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+
+let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+console.log("Company Names in Uppercase:")
+itCompanies.forEach((company, index) => {
+    let uppercasedCompany = company.toUpperCase()
+    console.log(`Company ${index + 1}: ${uppercasedCompany}`)
+})
+
+let sentence = itCompanies.join(', ') + ' are big IT companies.'
+console.log("Array as a Sentence:", sentence)
+
+// Q-8 Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+// Filter out companies which have more than one 'o' without the filter method
+
+let itCompanie = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+function checkAndFilter(companyName) {
+    let found = false
+    let filteredCompanie = []
+
+    for (let i = 0; i < itCompanie.length; i++) {
+        let company = itCompanies[i]
+
+        if (company.toLowerCase() === companyName.toLowerCase()) {
+            found = true
+        }
+
+        let count = 0
+        for (let j = 0; j < company.length; j++) {
+            if (company[j].toLowerCase() === 'o') {
+                count++
+            }
+        }
+
+        if (count <= 1) {
+            filteredCompanie.push(company)
+        }
+    }
+
+    if (found) {
+        return `${companyName} exists in the array.`
+    }
+
+    else {
+        return `${companyName} is not found in the array.`
+    }
+}
+
+let companyNameToCheck = 'Microsoft'
+let result = checkAndFilter(companyNameToCheck)
+console.log(result)
+
+console.log("Filtered Companies:", companyNameToCheck)
+
+// Q-9 Sort the array using sort() method
+
+{
+    let ary1 = ["Ani", "Kartik", "Vijay", "Hari", "Varun", "Gopal"]
+    console.log(ary1)
+
+    let ary2 = ary1.sort()
+    console.log(ary2)
+}
+
+// Q-10 Reverse the array using reverse() method
+
+{
+    let arr1 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
+    console.log(arr1)
+
+    let arr2 = arr1.reverse()
+    console.log(arr2)
+}
+
+// Q-11 Slice out the first 3 companies from the array
+
+let name1 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
+let k = 3
+console.log(name1)
+const result1 = name1.slice(0, 3)
+console.log(result1)
+
+// Q-12 Slice out the last 3 companies from the array
+
+let name2 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
+console.log(name2)
+const result2 = name2.slice(-3)
+console.log(result2)
+
+// Q-13 Slice out the middle IT company or companies from the array
+// Remove the first IT company from the array
+// Remove the middle IT company or companies from the array
+// Remove the last IT company from the array
+// Remove all IT companies
+
+let itCompani = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+
+function checkCompanyExists(companyName) {
+    if (itCompanies.includes(companyName)) {
+        return `${companyName} exists in the array.`
+    } 
+    else {
+        return `${companyName} is not found in the array.`
+    }
+}
+
+let companyName = 'Microsoft'
+let result3 = checkCompanyExists(companyName)
+console.log(result3)
+
+let filteredCompanies = []
+for (let i = 0; i < itCompanies.length; i++) {
+    let company = itCompani[i]
+    let count = 0;
+    for (let j = 0; j < company.length; j++) {
+        if (company[j].toLowerCase() === 'o') {
+            count++;
+        }
+    }
+
+    if (count <= 1) {
+        filteredCompanies.push(company)
+    }
+}
+console.log("Filtered Companies:", filteredCompanies)
+
+let middleIndex = Math.floor(itCompanies.length / 2)
+let middleCompanies = itCompanies.slice(middleIndex, middleIndex + 1)
+console.log("Middle IT Company:", middleCompanies)
+
+itCompani.shift()
+console.log("Array after removing the first IT company:", itCompani)
+
+itCompani.splice(middleIndex, 1)
+console.log("Array after removing the middle IT company:", itCompani)
+
+itCompani.pop()
+console.log("Array after removing the last IT company:", itCompani)
+
+itCompani = []
+console.log("Array after removing all IT compani:", itCompani)

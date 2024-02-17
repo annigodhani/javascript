@@ -386,11 +386,11 @@ console.log("Array after removing all IT compani:", itCompani)
 
 {
     function Square(number) {
-        return number * number;
+        return number * number
     }
 
     for (let i = 1; i <= 20; i++) {
-        console.log(Square(i));
+        console.log(Square(i))
     }
 
 }
@@ -402,7 +402,7 @@ console.log("Array after removing all IT compani:", itCompani)
       return (v * 9/5) + 32
     }
     let result4 = Celsius(22)
-    console.log(result4);
+    console.log(result4)
 }
 
 // 3. Write a function to find the area of a given Rectangle
@@ -411,7 +411,7 @@ console.log("Array after removing all IT compani:", itCompani)
     function rect(l, w) {
         return l * w
     }
-    console.log(rect(20, 13));
+    console.log(rect(20, 13))
 }
 
 // 4. Write a function to reverse a number
@@ -419,7 +419,7 @@ console.log("Array after removing all IT compani:", itCompani)
 {
     function rever() {
         for(let j = 10; j >= 1; j--)
-        console.log(j);
+        console.log(j)
     }
 }
 rever()
@@ -432,28 +432,38 @@ rever()
 //     }
 // }
 
+function Vowels(str) {
+	const vowels = "aeiouAEIOU"
+	return str.split("").reduce(function (count, char) {
+		return vowels.indexOf(char) !== -1 ? count + 1 : count
+	}, 0)
+}
+const result5 = Vowels("Hello, World!")
+console.log("Number of vowels :", result5)
+
+
 function countVowels(str) {
     
-    str = str.toLowerCase();
+    str = str.toLowerCase()
  
-    var vowels = ['a', 'e', 'i', 'o', 'u'];
+    var vowels = ['a', 'e', 'i', 'o', 'u']
  
-    var count = 0;
+    var count = 0
   
     for (var i = 0; i < str.length; i++) {
       
       if (vowels.indexOf(str[i]) !== -1) {
-        count++;
+        count++
       }
     }
   
-    return count;
+    return count
   }
   
-  var inputString = "Hello, Aniruddh Godhani";
-  var resultt = countVowels(inputString);
+  var inputString = "Hello, Aniruddh Godhani"
+  var resultt = countVowels(inputString)
   
-  console.log("Number of vowels in the string:", resultt);
+  console.log("Number of vowels :", resultt)
   
 
 // 6. Write a function to calculate simple interest based on the principal amount
@@ -463,7 +473,7 @@ function countVowels(str) {
      let interest = (p * r * t)/100
      return interest
     }
-    console.log(simple(3000 , 4 , 3));
+    console.log(simple(3000 , 4 , 3))
 }
 
 // 7. Write a function to generate a random number
@@ -472,13 +482,11 @@ function countVowels(str) {
     function random(m , n) {
         return Math.floor(Math.random() * (m - n + 1)) + n
     }
-    console.log(random(1 , 100));
+    console.log(random(1 , 100))
 }
 
-// 8. Write a JavaScript program to display the current day and time in the
-//    following format.
-
-
+// 8. Write a JavaScript program to display the current day and time in the following format.
+ 
 {
     function date() {
         let now = new Date()
@@ -492,12 +500,15 @@ function countVowels(str) {
     date()
 }
 
-// 9. Write a JavaScript function that returns a passed string with letters in
-//    alphabetical order.
+// 9. Write a JavaScript function that returns a passed string with letters in alphabetical order.
 
 {
     function order(s) {
         return s.split('').sort().join('')
     }
-    console.log("Aniruddh = " , order("Aniruddh"));
+    console.log("Aniruddh = " , order("Aniruddh"))
 }
+
+// 10. Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
+
+

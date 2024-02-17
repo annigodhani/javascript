@@ -113,18 +113,18 @@ a()
 
 {
     // // passing function as an argument
-    greet('Aniruddh', callMe);
+    greet('Aniruddh', callMe)
 
     // callback function
     function callMe() 
     {
-        console.log('I am Here');
+        console.log('I am Here')
     }
 
     // function
     function greet(name, callback)
      {
-        console.log('Hi' + ' ' + name);
-        callback();
+        console.log('Hi' + ' ' + name)
+        callback()
     }
 }

@@ -2,7 +2,7 @@
 
 let S1 = "Hello"
 let S2 = 'World'
-let S3  = `Hello World`
+let S3 = `Hello World`
 
 console.log(S1);
 console.log(S2);
@@ -20,26 +20,26 @@ console.log(S5);
 
 //  String length.
 
-let S6  = "WHAT ARE MOST SIMPLE."
+let S6 = "WHAT ARE MOST SIMPLE."
 console.log(S6.length);
 
 
 //  String charAt() 
 
-let S7  = "MOST Populer FOOd."
+let S7 = "MOST Populer FOOd."
 let S8 = S7.charAt(6)
 console.log(S8);
 
 
 // String slice() return New String 
 
-let String9  = "Noty Boy."
-let String10  = String9.slice(6)
-let String11  = String9.slice(-10)
-let String12  = String9.slice(-5  , -12)
-let String13  = String9.slice(6 , 8)
-let String14  = String9.slice(-3 , 14)
-let String15  = String9.slice(4 , -9)
+let String9 = "Noty Boy."
+let String10 = String9.slice(6)
+let String11 = String9.slice(-10)
+let String12 = String9.slice(-5, -12)
+let String13 = String9.slice(6, 8)
+let String14 = String9.slice(-3, 14)
+let String15 = String9.slice(4, -9)
 
 console.log(String10)
 console.log(String11)
@@ -52,11 +52,11 @@ console.log(String15)
 let String16 = "Happy Girl."
 let String17 = String16.substring(10)
 let String18 = String16.slice(12)
-let String19 =  String16.substring(-10)
-let String20 =  String16.slice(-13)
-let String21 =  String16.substring(10 , 30)
-let String22 =  String16.substring(2 , -20)
-let String23 =  String16.substring( -10 , 8)
+let String19 = String16.substring(-10)
+let String20 = String16.slice(-13)
+let String21 = String16.substring(10, 30)
+let String22 = String16.substring(2, -20)
+let String23 = String16.substring(-10, 8)
 
 console.log(String17)
 console.log(String18)
@@ -69,14 +69,14 @@ console.log(String23)
 // String replace()
 
 let String24 = "WHAT ARE MOST SIMPLE Guy's."
-let String25 = String24.replace("MOST" , "The")
+let String25 = String24.replace("MOST", "The")
 
 console.log(String25)
 
 // String replaceAll()
 
 let String27 = "Simple Guy's Is Very Simple."
-let String28  = String27.replaceAll("Simple" , "Boring")
+let String28 = String27.replaceAll("Simple", "Boring")
 console.log(String28)
 
 
@@ -90,14 +90,14 @@ console.log(String31)
 //  String toLowerCase()
 
 let String32 = "ANIRUDDH GODHANI"
-let String33  = String32.toLowerCase()
+let String33 = String32.toLowerCase()
 console.log(String33)
 
 
 //  String concat()
 
 let String34 = "Hello"
-let String35  = "How Are You!"
+let String35 = "How Are You!"
 let String36 = String34.concat(" " + String35)
 console.log(String36)
 
@@ -201,11 +201,11 @@ console.log('length is' + ' ' + v.length)
 let A = [1, 2, 3, 4, 5, 6, 7]
 let G = A[0]
 let V = A[Math.floor(A.length / 2)]
-let K = A[A.length - 1]
-
+let Ka = A[A.length - 1]
+  
 console.log("G :", G)
 console.log("V :", V)
-console.log("K :", K)
+console.log("Ka :", Ka)
 
 // Q-5 Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 
@@ -314,7 +314,7 @@ console.log("Filtered Companies:", companyNameToCheck)
 // Q-11 Slice out the first 3 companies from the array
 
 let name1 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
-let k = 3
+let K = 3
 console.log(name1)
 const result1 = name1.slice(0, 3)
 console.log(result1)
@@ -337,7 +337,7 @@ let itCompani = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'A
 function checkCompanyExists(companyName) {
     if (itCompanies.includes(companyName)) {
         return `${companyName} exists in the array.`
-    } 
+    }
     else {
         return `${companyName} is not found in the array.`
     }
@@ -350,10 +350,10 @@ console.log(result3)
 let filteredCompanies = []
 for (let i = 0; i < itCompanies.length; i++) {
     let company = itCompani[i]
-    let count = 0;
+    let count = 0
     for (let j = 0; j < company.length; j++) {
         if (company[j].toLowerCase() === 'o') {
-            count++;
+            count++
         }
     }
 
@@ -378,3 +378,126 @@ console.log("Array after removing the last IT company:", itCompani)
 
 itCompani = []
 console.log("Array after removing all IT compani:", itCompani)
+
+
+
+
+// 1. Write a function that returns the square of a number 1 to 20
+
+{
+    function Square(number) {
+        return number * number;
+    }
+
+    for (let i = 1; i <= 20; i++) {
+        console.log(Square(i));
+    }
+
+}
+
+// 2. Write a function to convert Celsius to Fahrenheit
+
+{
+    function Celsius(v) {
+      return (v * 9/5) + 32
+    }
+    let result4 = Celsius(22)
+    console.log(result4);
+}
+
+// 3. Write a function to find the area of a given Rectangle
+
+{
+    function rect(l, w) {
+        return l * w
+    }
+    console.log(rect(20, 13));
+}
+
+// 4. Write a function to reverse a number
+
+{
+    function rever() {
+        for(let j = 10; j >= 1; j--)
+        console.log(j);
+    }
+}
+rever()
+
+// 5. Count the number of Vowels in the String
+
+// {
+//     function k(stg) {
+//         let vowel = 'aAeEiIoOuU'
+//     }
+// }
+
+function countVowels(str) {
+    
+    str = str.toLowerCase();
+ 
+    var vowels = ['a', 'e', 'i', 'o', 'u'];
+ 
+    var count = 0;
+  
+    for (var i = 0; i < str.length; i++) {
+      
+      if (vowels.indexOf(str[i]) !== -1) {
+        count++;
+      }
+    }
+  
+    return count;
+  }
+  
+  var inputString = "Hello, Aniruddh Godhani";
+  var resultt = countVowels(inputString);
+  
+  console.log("Number of vowels in the string:", resultt);
+  
+
+// 6. Write a function to calculate simple interest based on the principal amount
+
+{
+    function simple(p , r , t) {
+     let interest = (p * r * t)/100
+     return interest
+    }
+    console.log(simple(3000 , 4 , 3));
+}
+
+// 7. Write a function to generate a random number
+
+{
+    function random(m , n) {
+        return Math.floor(Math.random() * (m - n + 1)) + n
+    }
+    console.log(random(1 , 100));
+}
+
+// 8. Write a JavaScript program to display the current day and time in the
+//    following format.
+
+
+{
+    function date() {
+        let now = new Date()
+        const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+        let day = weekday[now.getDay()]
+        let hours = now.getHours()
+        let minutes = now.getMinutes()
+
+        console.log(day , hours,":",minutes)
+    }
+    date()
+}
+
+// 9. Write a JavaScript function that returns a passed string with letters in
+//    alphabetical order.
+
+{
+    function order(s) {
+        return s.split('').sort().join('')
+    }
+    console.log("Aniruddh = " , order("Aniruddh"));
+}

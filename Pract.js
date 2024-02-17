@@ -432,21 +432,10 @@ rever()
 //     }
 // }
 
-function Vowels(str) {
-	const vowels = "aeiouAEIOU"
-	return str.split("").reduce(function (count, char) {
-		return vowels.indexOf(char) !== -1 ? count + 1 : count
-	}, 0)
-}
-const result5 = Vowels("Hello, World!")
-console.log("Number of vowels :", result5)
-
-
 function countVowels(str) {
     
-    str = str.toLowerCase()
  
-    var vowels = ['a', 'e', 'i', 'o', 'u']
+    var vowels = ['a', 'e', 'i', 'o', 'u' , 'A' , 'E' , 'I' , 'O' , 'U']
  
     var count = 0
   

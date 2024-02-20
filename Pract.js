@@ -202,7 +202,7 @@ let A = [1, 2, 3, 4, 5, 6, 7]
 let G = A[0]
 let V = A[Math.floor(A.length / 2)]
 let Ka = A[A.length - 1]
-  
+
 console.log("G :", G)
 console.log("V :", V)
 console.log("Ka :", Ka)
@@ -399,7 +399,7 @@ console.log("Array after removing all IT compani:", itCompani)
 
 {
     function Celsius(v) {
-      return (v * 9/5) + 32
+        return (v * 9 / 5) + 32
     }
     let result4 = Celsius(22)
     console.log(result4)
@@ -418,8 +418,8 @@ console.log("Array after removing all IT compani:", itCompani)
 
 {
     function rever() {
-        for(let j = 10; j >= 1; j--)
-        console.log(j)
+        for (let j = 10; j >= 1; j--)
+            console.log(j)
     }
 }
 rever()
@@ -433,58 +433,61 @@ rever()
 // }
 
 function countVowels(str) {
-    
- 
-    var vowels = ['a', 'e', 'i', 'o', 'u' , 'A' , 'E' , 'I' , 'O' , 'U']
- 
+
+
+    var vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
     var count = 0
-  
+
     for (var i = 0; i < str.length; i++) {
-      
-      if (vowels.indexOf(str[i]) !== -1) {
-        count++
-      }
+
+        if (vowels.indexOf(str[i]) !== -1) {
+            count++
+        }
     }
-  
+
     return count
-  }
-  
-  var inputString = "Hello, Aniruddh Godhani"
-  var resultt = countVowels(inputString)
-  
-  console.log("Number of vowels :", resultt)
-  
+}
+
+var inputString = "Hello, Aniruddh Godhani"
+var resultt = countVowels(inputString)
+
+console.log("Number of vowels :", resultt)
+
 
 // 6. Write a function to calculate simple interest based on the principal amount
 
 {
-    function simple(p , r , t) {
-     let interest = (p * r * t)/100
-     return interest
+    function simple(p, r, t) {
+        let interest = (p * r * t) / 100
+        return interest
     }
-    console.log(simple(3000 , 4 , 3))
+    console.log(simple(3000, 4, 3))
 }
 
 // 7. Write a function to generate a random number
 
 {
-    function random(m , n) {
+    function random(m, n) {
         return Math.floor(Math.random() * (m - n + 1)) + n
     }
-    console.log(random(1 , 100))
+    console.log(random(1, 100))
 }
 
 // 8. Write a JavaScript program to display the current day and time in the following format.
- 
+
 {
     function date() {
         let now = new Date()
-        const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-        let day = weekday[now.getDay()]
+        console.log(now);
+        const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+        console.log(weekday[now.getDay()]);
+        let day = now.getDay()
+        console.log(day);
         let hours = now.getHours()
         let minutes = now.getMinutes()
 
-        console.log(day , hours,":",minutes)
+        console.log(day, hours, ":", minutes)
     }
     date()
 }
@@ -495,7 +498,25 @@ function countVowels(str) {
     function order(s) {
         return s.split('').sort().join('')
     }
-    console.log("Aniruddh = " , order("Aniruddh"))
+    console.log("Aniruddh = ", order("Aniruddh Godhani"))
+}
+
+// sorting with word first letter in order form
+
+{
+
+    var word = ["Gopal", "Vijay", "Anni", "Hari", "Chirag", "Kartik", "Janak" , "Dhruvil"]
+
+    word.sort(function (a, v) {
+        var LetterA = a.charAt(0)
+        var LetterV = v.charAt(0)
+
+        if (LetterA < LetterV) {
+            return -1
+        }
+    })
+
+    console.log(word)
 }
 
 // 10. Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.

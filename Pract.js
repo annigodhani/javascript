@@ -4,31 +4,31 @@ let S1 = "Hello"
 let S2 = 'World'
 let S3 = `Hello World`
 
-console.log(S1);
-console.log(S2);
-console.log(S3);
+console.log(S1)
+console.log(S2)
+console.log(S3)
 
 
 // string as object 
 
 let S4 = new String("Aniruddh")
 
-console.log(S4);
+console.log(S4)
 
-let S5 = S4.split("");
-console.log(S5);
+let S5 = S4.split("")
+console.log(S5)
 
 //  String length.
 
 let S6 = "WHAT ARE MOST SIMPLE."
-console.log(S6.length);
+console.log(S6.length)
 
 
 //  String charAt() 
 
 let S7 = "MOST Populer FOOd."
 let S8 = S7.charAt(6)
-console.log(S8);
+console.log(S8)
 
 
 // String slice() return New String 
@@ -151,12 +151,12 @@ console.log(Number2)
 
 let Number3 = "2002"
 let Number4 = Number1.padEnd(4, 0)
-console.log(Number4);
-console.log(typeof (Number4));
+console.log(Number4)
+console.log(typeof (Number4)) 
 
 let Number5 = parseFloat(Number4)
-console.log(Number5);
-console.log(typeof (Number5));
+console.log(Number5)
+console.log(typeof (Number5))
 
 
 //  String charCodeAt() 
@@ -181,7 +181,7 @@ console.log(String50)
 let String51 = String50.includes("a")
 console.log(String51)
 
-//Q-1 Declare an empty array;
+//Q-1 Declare an empty array
 
 let newarry = []
 console.log(newarry)
@@ -479,11 +479,11 @@ console.log("Number of vowels :", resultt)
 {
     function date() {
         let now = new Date()
-        console.log(now);
+        console.log(now)
         const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-        console.log(weekday[now.getDay()]);
+        console.log(weekday[now.getDay()])
         let day = now.getDay()
-        console.log(day);
+        console.log(day)
         let hours = now.getHours()
         let minutes = now.getMinutes()
 

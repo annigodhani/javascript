@@ -43,20 +43,20 @@ console.log(typeof (newstring))
 
 // /* Array length properties */
 
-let arry = ["option-1", "gamit", false, 1, "skill", "development"];
-console.log(arry);
-console.log(arry[0]);
-console.log(arry[5]);
-arry.push("frontend");
-console.log(arry);
+let arry = ["option-1", "gamit", false, 1, "skill", "development"]
+console.log(arry)
+console.log(arry[0])
+console.log(arry[5])
+arry.push("frontend")
+console.log(arry)
 arry.pop()
 arry.pop()
 arry.pop()
-console.log(arry);
+console.log(arry)
 
 arry[0] = "one"
 
-console.log(arry);
+console.log(arry)
 
 // /* The length property provides an easy way to append new elements to an array without using the push() method.*/
 
@@ -65,23 +65,23 @@ console.log(arry);
 // /* The join() method also joins all array elements into a string. */
 
 {
-    let arry1 = ["option-1", "gamit", false, 1, "skill", "development"];
+    let arry1 = ["option-1", "gamit", false, 1, "skill", "development"]
     let arry2 = arry1.join("+")
-    console.log(arry2);
-    console.log(typeof (arry2));
+    console.log(arry2)
+    console.log(typeof (arry2))
 }
 
 // /* Popping in javascript Array */
 
 {
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
-    document.getElementById("demo").innerHTML = fruits;
+    const fruits = ["Banana", "Orange", "Apple", "Mango"]
+    document.getElementById("demo").innerHTML = fruits
 
-    document.getElementById("demo-1").innerHTML = fruits.pop();
+    document.getElementById("demo-1").innerHTML = fruits.pop()
 
-    console.log(fruits);
+    console.log(fruits)
 
-    console.log(fruits.length);
+    console.log(fruits.length)
 }
 
 // /* The pop() method returns the value that was "popped out" */
@@ -432,7 +432,7 @@ console.log(arry);
         let studentsData = [['Vijay', 24], ['Janak', 26],]
         studentsData[1][2] = 'hello'
     
-        console.log(studentsData);
+        console.log(studentsData)
     }
 
     {
@@ -440,7 +440,7 @@ console.log(arry);
         let studentsData = [['Chirag', 28], ['Hari', 24],]
         studentsData[1].push('hello')
 
-        console.log(studentsData);
+        console.log(studentsData)
     }
       
     {
@@ -469,7 +469,7 @@ console.log(arry);
         let studentsData = [['Jemisha', 22], ['Saki', 23]]
         studentsData[1].pop()
 
-        console.log(studentsData); // [["Jemisha" , 22], ["Saki" , 23]]
+        console.log(studentsData) // [["Jemisha" , 22], ["Saki" , 23]]
     }
 
     {

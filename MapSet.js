@@ -52,7 +52,7 @@ size	Returns the number of elements in a Map
         ["item-1" , "car"],
         ["item-2" , "bus"],
         ["item-3" , "truck"]
-    ]);
+    ])
 
     newmap.set("item-1" , "truck")
 
@@ -81,7 +81,7 @@ size	Returns the number of elements in a Map
         ["item-1" , "car"],
         ["item-2" , "bus"],
         ["item-3" , "truck"]
-    ]);
+    ])
 
    console.log(newmap)
    console.log(newmap.delete("item-1"))
@@ -126,7 +126,7 @@ size	Returns the number of elements in a Map
         ["item-1" , "car"],
         ["item-2" , "bus"],
         ["item-3" , "truck"]
-    ]);
+    ])
 
     let mapitem = ""
 

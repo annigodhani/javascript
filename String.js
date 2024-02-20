@@ -8,19 +8,19 @@ let String1 = "Hello World"
 let String2 = 'Hello World'
 let String3 = `Hello World`
 
-console.log(String1);
-console.log(String2);
-console.log(String3);
+console.log(String1)
+console.log(String2)
+console.log(String3)
 
 
 /* string as object */
 
 let String4 = new String("Hello World")
 
-console.log(String4);
+console.log(String4)
 
-let String5 = String1.split("");
-console.log(String5);
+let String5 = String1.split("")
+console.log(String5)
 
 
 
@@ -207,12 +207,12 @@ console.log(Number2)
 
 let Number3 = "500"
 let Number4 = Number1.padEnd(4, 0)
-console.log(Number4);
-console.log(typeof (Number4));
+console.log(Number4)
+console.log(typeof (Number4))
 
 let Number5 = parseFloat(Number4)
-console.log(Number5);
-console.log(typeof (Number5));
+console.log(Number5)
+console.log(typeof (Number5))
 
 
 /******  String charCodeAt() ******/

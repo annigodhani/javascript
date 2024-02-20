@@ -71,71 +71,71 @@
 // Q - 3
 
 // {
-//   let t = prompt();
-//   c = prompt();
+//   let t = prompt()
+//   c = prompt()
 
 //   while (c <= 10) 
 //  {
-//     document.write(c * t + "<br>");
-//     c++;
+//     document.write(c * t + "<br>")
+//     c++
 //   }
 // }
 
 // {
-//   let t = prompt();
-//   c = prompt();
+//   let t = prompt()
+//   c = prompt()
 
 //   do {
-//     document.write(c * t + "<br>");
-//     c++;
+//     document.write(c * t + "<br>")
+//     c++
 //   }
 //   while (c <= 10)
 // }
 
 // {
-//   let t = prompt();
-//   c = prompt();
+//   let t = prompt()
+//   c = prompt()
 
 //   for (c = 1; c <= 10; c++)
 // {
-//     document.write(c * t + "<br>");
+//     document.write(c * t + "<br>")
 //   }
 // }
 
 // Q - 4
 
 // {
-//   let Num = 50;
-//   let guessCount = 0;
-//   let guess = 5;
+//   let Num = 50
+//   let guessCount = 0
+//   let guess = 5
 
 //   while (guessCount < guess) 
 //   {
-//     let user = prompt("Enter a number between 1 and 100");
-//     guessCount++;
+//     let user = prompt("Enter a number between 1 and 100")
+//     guessCount++
 
 //     if (user == Num) 
 //     {
 //       alert(
 //         "Congratulations! You guess the number"
-//       );
-//       break;
+//       )
+//       break
 //     }
 
 //     if (user > Num) 
 //     {
-//       alert("guess is too high. Try again.");
+//       alert("guess is too high. Try again.")
 //     } 
 
 //     else if (user < Num) 
 //     {
-//       alert("guess is too low. Try again.");
+//       alert("guess is too low. Try again.")
 //     }
 
 //     if (guessCount == guess) 
 //     {
 //       alert(
-//         "Sorry, your guess limit over.");
+//         "Sorry, your guess limit over.")
 //     }
 //   }
 // }
@@ -143,60 +143,60 @@
 // Q - 5
 
 {
-  const num = prompt();
+  const num = prompt()
   let n1 = 0
   n2 = 1
   n3 = 1
 
-  console.log('Fibonacci Series:');
-  console.log(n1);
-  console.log(n2);
+  console.log('Fibonacci Series:')
+  console.log(n1)
+  console.log(n2)
 
-  n3 = n1 + n2;
+  n3 = n1 + n2
 
   while (n3 <= num) {
 
-    console.log(n3);
+    console.log(n3)
 
-    n1 = n2;
-    n2 = n3;
-    n3 = n1 + n2;
+    n1 = n2
+    n2 = n3
+    n3 = n1 + n2
   }
 }
 
 // {
-//   const num = prompt();
-//   let n1 = 0;
-//   let n2 = 1;
-//   let n3 = 1;
+//   const num = prompt()
+//   let n1 = 0
+//   let n2 = 1
+//   let n3 = 1
 
-//   console.log('Fibonacci Series:');
-//   console.log(n1);
-//   console.log(n2);
+//   console.log('Fibonacci Series:')
+//   console.log(n1)
+//   console.log(n2)
 
 //   do {
-//     n3 = n1 + n2;
-//     console.log(n3);
+//     n3 = n1 + n2
+//     console.log(n3)
 
-//     n1 = n2;
-//     n2 = n3;
+//     n1 = n2
+//     n2 = n3
 
 //   }
-//   while ((n3 <= num) && (n3 = n1 + n2));
+//   while ((n3 <= num) && (n3 = n1 + n2))
 
 // }
 
 // {
-//   const num = prompt();
-//   let n1 = 0;
-//   let n2 = 1;
-//   let n3;
+//   const num = prompt()
+//   let n1 = 0
+//   let n2 = 1
+//   let n3
 
-//   console.log('Fibonacci Series:');
-//   console.log(n1);
-//   console.log(n2);
+//   console.log('Fibonacci Series:')
+//   console.log(n1)
+//   console.log(n2)
 
-//   for (n3 = n1 + n2; n3 <= num;
+//   for (n3 = n1 + n2; n3 <= num
 //     console.log(n3), n1 = n2, n2 = n3, n3 = n1 + n2) {
 
 //   }
@@ -217,26 +217,26 @@
 // }
 
 // {
-//   let n = prompt();
-//   let d = 1, fact = 1;
+//   let n = prompt()
+//   let d = 1, fact = 1
 
 //   do {
-//     fact = fact * d;
-//     d++;
+//     fact = fact * d
+//     d++
 //   } 
-//   while (d <= n);
+//   while (d <= n)
 
-//   console.log(fact);
+//   console.log(fact)
 // }
 
 // {
-//   let n = prompt();
-//   let fact = 1;
+//   let n = prompt()
+//   let fact = 1
 
 // for (let d = 1; d <= n; fact *= d, d++) {
 
 // }
-// console.log(fact);
+// console.log(fact)
 // }
 
 
@@ -248,40 +248,40 @@
 // {
 //   let e = prompt()
 //   power = prompt()
-//   f = 1;
-//   g = 0;
+//   f = 1
+//   g = 0
 
 //   while (g < power) {
-//     f = f * e;
-//     g++;
+//     f = f * e
+//     g++
 //   }
-//   console.log(f);
+//   console.log(f)
 // }
 
 // {
-//   let e = prompt();
-//   let power = prompt();
-//   let f = 1;
+//   let e = prompt()
+//   let power = prompt()
+//   let f = 1
 
 //   for (let g = 0; g < power; f *= e, g++) {
 //   }
 
-//   console.log(f);
+//   console.log(f)
 // }
 
 // {
-//   let e = prompt();
-//   let power = prompt();
-//   let f = 1;
-//   let g = 0;
+//   let e = prompt()
+//   let power = prompt()
+//   let f = 1
+//   let g = 0
 
 //   do {
-//     f = f * e;
-//     g++;
+//     f = f * e
+//     g++
 //   } 
-//   while (g < power);
+//   while (g < power)
 
-//   console.log(f);
+//   console.log(f)
 // }
 
 // Q - 9
@@ -291,42 +291,42 @@
 //   let i = 1
 
 //   while (i <= h) {
-//     let j = 1;
+//     let j = 1
 
 //     while (j <= i) {
-//       document.write("* ");
-//       j++;
+//       document.write("* ")
+//       j++
 //     }
-//     document.write("<br>");
-//     i++;
+//     document.write("<br>")
+//     i++
 //   }
 // }
 
 // {
-//   let h = prompt();
-//   let i = 1;
+//   let h = prompt()
+//   let i = 1
 
 //   do {
-//     let j = 1;
+//     let j = 1
 
 //     do {
-//       document.write("* ");
-//       j++;
+//       document.write("* ")
+//       j++
 //     }
 
-//     while (j <= i);
+//     while (j <= i)
 
-//     document.write("<br>");
-//     i++;
+//     document.write("<br>")
+//     i++
 //   }
-//   while (i <= h);
+//   while (i <= h)
 // }
 
 // {
-//   let h = prompt();
+//   let h = prompt()
 
 //   for (let i = 1; i <= h; document.write("<br>"), i++) {
-//     for (let j = 1; j <= i; document.write("* "), j++);
+//     for (let j = 1; j <= i; document.write("* "), j++)
 //   }
 
 // }
@@ -336,13 +336,13 @@
 // Q - 10
 
 // {
-//   let arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
-//   let k = 35;
+//   let arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+//   let k = 35
 
 //   for (let l = 0; l < arr.length; l++) {
 //     if (arr[l] === k) {
-//       document.write("Number found at index : ", l + "<br>");
-//       break;
+//       document.write("Number found at index : ", l + "<br>")
+//       break
 //     }
 //   }
 // }
@@ -350,13 +350,13 @@
 // Q - 11
 
 // {
-//   let m = prompt();
+//   let m = prompt()
 //   while (true) {
 //     if (m % 2 !== 0) {
-//       document.write(`The First Odd Num Is : ${m}` + "<br>");
-//       break;
+//       document.write(`The First Odd Num Is : ${m}` + "<br>")
+//       break
 //     }
-//     m++;
+//     m++
 //   }
 // }
 
@@ -367,13 +367,13 @@
 //   let o = 2 
 //   for (o = 2; o < n; o++) {
 //     if (n % o === 0) {
-//       document.write(n + " Is Not A Prime..." + "<br>");
-//       break;
+//       document.write(n + " Is Not A Prime..." + "<br>")
+//       break
 //     }
 //   }
 
 //   if (o === n) {
-//     document.write(n + " Is A Prime...." + "<br>");
+//     document.write(n + " Is A Prime...." + "<br>")
 //   }
 
 // }
@@ -381,34 +381,34 @@
 // Q -13
 
 // {
-// let userInput;
+// let userInput
 
 // while (true) {
-//   userInput = prompt("Enter a number (type 'exit' to stop loop):");
+//   userInput = prompt("Enter a number (type 'exit' to stop loop):")
 
 //   if (userInput === "exit") {
-//     document.write("Exiting the loop based on user input." + "<br>");
-//     break;
+//     document.write("Exiting the loop based on user input." + "<br>")
+//     break
 //   }
 
-//   document.write("You entered: " + userInput + "<br>");
+//   document.write("You entered: " + userInput + "<br>")
 // }
 
-//   let sum = 0, num;
+//   let sum = 0, num
 
 //    while(true) {
 
-//     num = parseInt(prompt('Enter a number: '));
+//     num = parseInt(prompt('Enter a number: '))
 
 //     if(num < 0) {
-//         break;
+//         break
 //     }
 
 
-//     sum += num;
+//     sum += num
 
 // }
-// console.log(`The sum is ${sum}.`);
+// console.log(`The sum is ${sum}.`)
 // }
 
 // ❖ continue statement
@@ -422,7 +422,7 @@
 //     {
 //         if (p % 2 !== 0)
 //         {
-//             continue;
+//             continue
 //         }
 //         document.write(p + "<br>")
 //     }
@@ -431,30 +431,30 @@
 // Q - 15
 
 // {
-//   let q = 1;
+//   let q = 1
 
 //   while (q <= 15) {
 //     if (q % 3 === 0) {
-//       q++;
-//       continue;
+//       q++
+//       continue
 //     }
 
-//     document.write(q + "<br>");
-//     q++;
+//     document.write(q + "<br>")
+//     q++
 //   }
 // }
 
 // Q -16
 
 // {
-//     let r = prompt('Enter The Starting Num');
-//     let s = prompt('Enter The Ending Num');
-//     let t;
+//     let r = prompt('Enter The Starting Num')
+//     let s = prompt('Enter The Ending Num')
+//     let t
 //     for(t = r; t <= s; t++)
 //     {
 //         if(t % 2 !== 0)
 //         {
-//             continue;
+//             continue
 //         }
 //         document.write(t + "<br>")
 //     }
@@ -463,30 +463,30 @@
 // Q - 17
 
 //  {
-//   let u = 1;
+//   let u = 1
 
 //   while (u <= 100) {
 //     if (u % 5 === 0) {
-//       u++;
-//       continue;
+//       u++
+//       continue
 //     }
 
-//     console.log(u);
-//     u++;
+//     console.log(u)
+//     u++
 //   }
 // }  
 
 
 // const ani = (value) => {
 //   for (let a = value; a > 0; a--) {
-//     let semstring = "";
+//     let semstring = ""
 //     for (let b = 1; b < a; b++) {
-//       semstring += " ";
+//       semstring += " "
 //     }
 //     for (let c = 0; c <= value - a; c++) {
-//       semstring += "*";
+//       semstring += "*"
 //     }
-//     document.write(semstring + "<br>");
+//     document.write(semstring + "<br>")
 //   }
 // }
 // ani(15)

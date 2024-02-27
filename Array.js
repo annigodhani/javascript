@@ -469,7 +469,7 @@ console.log(arry)
         let studentsData = [['Jemisha', 22], ['Saki', 23]]
         studentsData[1].pop()
 
-        console.log(studentsData) // [["Jemisha" , 22], ["Saki" , 23]]
+        console.log(studentsData)   // [["Jemisha" , 22], ["Saki" , 23]]
     }
 
     {

@@ -354,7 +354,7 @@ const newObject = new Object({
       }
   
       
-    //   // create object from Student prototype
+         // create object from Student prototype
       let std1 = Object.create(Student)
   
       let std2 = Object.assign(std1 , Student)
@@ -379,7 +379,7 @@ const newObject = new Object({
   
     let Obj1 = Object.entries(obj)
   
-    console.log(Obj1[2])
+    console.log(Obj1)
   }
   
   {

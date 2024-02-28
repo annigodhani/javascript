@@ -184,7 +184,7 @@ console.log(arry)
 
     fruits7[fruits7.length] = "Kiwi"
     document.getElementById("demo-1").innerHTML = fruits7
-    console.log(fruits7);
+    console.log(fruits7)
 }
 
 // /* JavaScript Array delete() */
@@ -313,9 +313,8 @@ console.log(arry)
     }
 }
 
-/* JavaScript Array slice() */
 
-/*  javascript Array flatMap() */
+/* JavaScript Array slice() */
 
 {
 
@@ -334,7 +333,7 @@ console.log(arry)
     console.log(flatmap2)
 }
 
-// /* javascript array filter() */
+ /* javascript array filter() */
 
 {
 
@@ -347,27 +346,28 @@ console.log(arry)
 
 }
 
-// /*  javascript array fill method */
+ /*  javascript array fill method */
 
 {
     let fillarray  = [46 , 89 , 101 , 122 , 45]
     console.log(fillarray)
+
     let fillarray2 = fillarray.fill("None" , 1)
     console.log(fillarray2)
 }
 
-// /* javascript array copywithin() method */
+ /* javascript array copywithin() method */
 
 {
     const alfa = ["A", "B", "C", "D", "E", "F"]
     const newcopy = alfa.copyWithin(0, 3, 4)
     console.log(newcopy)
 
-    console.log([1, 2, 3, 4, 5 , 6].copyWithin(0, 2));
+    console.log([1, 2, 3, 4, 5 , 6].copyWithin(0, 2))
 
-    console.log([1, 2, 3, 4, 5 , 6 , 7].copyWithin(2, 4 , 5));
+    console.log([1, 2, 3, 4, 5 , 6 , 7].copyWithin(2, 4 , 5))
 
-    console.log([7,6,5,4,3,2,1].copyWithin(2, 3));
+    console.log([7,6,5,4,3,2,1].copyWithin(2, 3))
     // [1, 2, 3, 3, 4]
 }
 
@@ -379,7 +379,7 @@ console.log(arry)
    document.write(newfruits)
 }
 
-// /*  javascript flat() method */
+ /*  javascript flat() method */
 
 // {
 //     const numm = [1, 2, 3, [4, [5, 6, [7, 8, 9]]]]

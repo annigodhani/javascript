@@ -61,7 +61,7 @@ console.log(String6.length);
 
 let String7 = "WHAT ARE MOST SIMPLE FOO."
 let String8 = String7.charAt(3)
-console.log(String8);
+console.log(String8)
 
 
 
@@ -226,6 +226,7 @@ console.log(String47)
 
 let String48 = "Wow! What a Place."
 console.log(String48)
+
 let String49 = String48.split("")
 console.log(String49)
 
@@ -234,6 +235,7 @@ console.log(String49)
 
 let String50 = "Wow! What a Place."
 console.log(String50)
+
 let String51 = String50.includes("a")
 console.log(String51)
 
@@ -253,6 +255,7 @@ console.log(String51)
 
 let String52 = "Wow! What a Place."
 console.log(String52)
+
 let String53 = String52.indexOf("a", 11)
 console.log(String53)
 
@@ -261,6 +264,7 @@ console.log(String53)
 
 let String54 = "Why Need Form Valiadation In Web Development"
 console.log(String54)
+
 let String55 = String54.lastIndexOf("m", 20)
 console.log(String55)
 
@@ -269,6 +273,7 @@ console.log(String55)
 
 let String56 = "Why Need Form Valiadation In Web Development"
 console.log(String56)
+
 let String57 = String56.search("W")
 console.log(String57)
 
@@ -277,6 +282,7 @@ console.log(String57)
 
 let String58 = "Why Need Form Valiadation In Web Development"
 console.log(String58)
+
 let String59 = String58.startsWith("h")
 console.log(String59)
 
@@ -285,6 +291,7 @@ console.log(String59)
 
 let String60 = "Why Need Form Valiadation In Web Development  "
 console.log(String60)
+
 let String61 = String60.endsWith(" ")
 console.log(String61)
 

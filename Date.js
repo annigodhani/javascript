@@ -53,7 +53,7 @@ let Date7 = new Date(2023, 4, 26, 16, 12, 59)
 console.log(Date7)
 
 let Date8 = new Date(120000)
-console.log(Date8);
+console.log(Date8)
 
 
 /* javascript ISO standard time */

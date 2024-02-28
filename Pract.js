@@ -316,6 +316,7 @@ console.log("Filtered Companies:", companyNameToCheck)
 let name1 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
 let K = 3
 console.log(name1)
+
 const result1 = name1.slice(0, 3)
 console.log(result1)
 
@@ -323,6 +324,7 @@ console.log(result1)
 
 let name2 = ["Gopal", "Vijay", "Janak", "Anii", "Nimesh", "Chirag"]
 console.log(name2)
+
 const result2 = name2.slice(-3)
 console.log(result2)
 
@@ -338,6 +340,7 @@ function checkCompanyExists(companyName) {
     if (itCompanies.includes(companyName)) {
         return `${companyName} exists in the array.`
     }
+
     else {
         return `${companyName} is not found in the array.`
     }
@@ -351,6 +354,7 @@ let filteredCompanies = []
 for (let i = 0; i < itCompanies.length; i++) {
     let company = itCompani[i]
     let count = 0
+
     for (let j = 0; j < company.length; j++) {
         if (company[j].toLowerCase() === 'o') {
             count++
@@ -401,6 +405,7 @@ console.log("Array after removing all IT compani:", itCompani)
     function Celsius(v) {
         return (v * 9 / 5) + 32
     }
+
     let result4 = Celsius(22)
     console.log(result4)
 }
@@ -480,10 +485,13 @@ console.log("Number of vowels :", resultt)
     function date() {
         let now = new Date()
         console.log(now)
+
         const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
         console.log(weekday[now.getDay()])
+
         let day = now.getDay()
         console.log(day)
+        
         let hours = now.getHours()
         let minutes = now.getMinutes()
 

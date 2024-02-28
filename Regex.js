@@ -227,7 +227,7 @@ split()	Break a string into an array of substrings.
 
 
     // splitting strings into array elements
-    const regex1 = /[\s,]+/;
+    const regex1 = /[\s,]+/
     const result2 = 'Hello world!'.split(regex1);
     const textt = 'Hello world!'
     const text2 = textt.split('')

@@ -64,6 +64,13 @@ console.log(box1)
     newelement.textContent = `how are you!
      hi./kzndcb`
     document.body.appendChild(newelement)
+
+    var newelement = document.createElement("h1")
+    newelement.textContent = "hello world"
+    newelement.classList = 'Aniruddh....'
+    // newelement.classList = 'Godhani....'
+    document.body.appendChild(newelement)
+
 }
 
 // document.write('hello javascript!')
@@ -86,7 +93,7 @@ comments */
     console.log(name20)
 
     console.log(typeof (_nameone))
-
+    
 }
 
 

@@ -11,19 +11,23 @@
 */
 
 {
-    alert("Hello Aniruddh");
-    window.alert("this is javascript");
+    alert("Hello Aniruddh")
+    window.alert("this is javascript")
 }
 
 {
-    let  Ani;
-    Ani = false ;
+    let  Ani
+    Ani = false
 
-    alert(Ani ? "Nagative User" : "Positive User");
+    alert(Ani ? "Nagative User" : "Positive User")
 }
 
-const Message = prompt();
-document.write(Message);
+{
+    const Message = prompt()
+    document.write(Message)
+}
 
-let message= confirm("this is javascript?");
-document.write(message);
+{
+    let message= confirm("this is javascript?")
+    document.write(message)
+}

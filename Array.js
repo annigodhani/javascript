@@ -188,7 +188,7 @@ console.log(arry)
 }
 
 // /* JavaScript Array delete() */
-
+ 
 // /* Array elements can be deleted using the JavaScript operator delete. */
 
 // /* Using delete leaves undefined holes in the array. */
@@ -333,7 +333,7 @@ console.log(arry)
     console.log(flatmap2)
 }
 
- /* javascript array filter() */
+/* javascript array filter() */
 
 {
 
@@ -346,28 +346,28 @@ console.log(arry)
 
 }
 
- /*  javascript array fill method */
+/*  javascript array fill method */
 
 {
-    let fillarray  = [46 , 89 , 101 , 122 , 45]
+    let fillarray = [46, 89, 101, 122, 45]
     console.log(fillarray)
 
-    let fillarray2 = fillarray.fill("None" , 1)
+    let fillarray2 = fillarray.fill("None", 1)
     console.log(fillarray2)
 }
 
- /* javascript array copywithin() method */
+/* javascript array copywithin() method */
 
 {
     const alfa = ["A", "B", "C", "D", "E", "F"]
     const newcopy = alfa.copyWithin(0, 3, 4)
     console.log(newcopy)
 
-    console.log([1, 2, 3, 4, 5 , 6].copyWithin(0, 2))
+    console.log([1, 2, 3, 4, 5, 6].copyWithin(0, 2))
 
-    console.log([1, 2, 3, 4, 5 , 6 , 7].copyWithin(2, 4 , 5))
+    console.log([1, 2, 3, 4, 5, 6, 7].copyWithin(2, 4, 5))
 
-    console.log([7,6,5,4,3,2,1].copyWithin(2, 3))
+    console.log([7, 6, 5, 4, 3, 2, 1].copyWithin(2, 3))
     // [1, 2, 3, 3, 4]
 }
 
@@ -376,10 +376,10 @@ console.log(arry)
 {
     const fruitss = ["Banana", "Orange", "Lemon", "Apple", "Mango", "watermelon", "kiwi", "Olive"]
     const newfruits = fruitss.valueOf()
-   document.write(newfruits)
+    document.write(newfruits)
 }
 
- /*  javascript flat() method */
+/*  javascript flat() method */
 
 // {
 //     const numm = [1, 2, 3, [4, [5, 6, [7, 8, 9]]]]
@@ -393,11 +393,11 @@ console.log(arry)
 //     console.log(newarray4)
 // }
 
- /*  JavaScript Multidimensional Array */
- 
- /* A multidimensional array is an array that contains another array. */
- 
- {
+/*  JavaScript Multidimensional Array */
+
+/* A multidimensional array is an array that contains another array. */
+
+{
     // multidimensional array
     const data = [[1, 2, 3], [1, 3, 4], [4, 5, 6]]
     console.log(data)
@@ -406,9 +406,9 @@ console.log(arry)
 /* Access Elements of an Array */
 
 {
-   const data = [[1, 2, 3], [1, 9, 4], [4, 5, 6]]
-   let data1 = data[1][1]
-   console.log(data1)
+    const data = [[1, 2, 3], [1, 9, 4], [4, 5, 6]]
+    let data1 = data[1][1]
+    console.log(data1)
 }
 
 /* Add an Element to a Multidimensional Array */
@@ -419,7 +419,7 @@ console.log(arry)
     let studentsData = [['Anni', 22], ['Gopal', 25]]
     studentsData.push(['Kartik', 24])
 
-    let data = studentsData[1][1] 
+    let data = studentsData[1][1]
 
     console.log(studentsData)
     console.log(data)
@@ -429,27 +429,27 @@ console.log(arry)
     // Adding Element to the Inner Array
     {
         // using index notation
-        let studentsData = [['Vijay', 24], ['Janak', 26],]
+        let studentsData = [['Vijay', 24], ['Janak', 26]]
         studentsData[1][2] = 'hello'
-    
+
         console.log(studentsData)
     }
 
     {
         // using push()
-        let studentsData = [['Chirag', 28], ['Hari', 24],]
+        let studentsData = [['Chirag', 28], ['Hari', 24]]
         studentsData[1].push('hello')
 
         console.log(studentsData)
     }
-      
+
     {
         // the Array's splice() method to add an element at a specified index.
 
         let studentsData = [['Kishan', 23], ['Nikunj', 25]]
 
         // adding element at 1 index
-        studentsData.splice(0, 2 , ["peter"  , 58])
+        studentsData.splice(0, 2, ["peter", 58])
 
         console.log(studentsData)
     }
@@ -473,11 +473,11 @@ console.log(arry)
     }
 
     {
-       // the splice() method to remove an element at a specified index.
+        // the splice() method to remove an element at a specified index.
         let studentsData = [['Vishakha', 25], ['Nidhi', 24]]
 
         // removing 1 index array item
-        studentsData.splice(0,1)
+        studentsData.splice(0, 1)
         console.log(studentsData)
     }
 }

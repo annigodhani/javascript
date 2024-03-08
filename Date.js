@@ -56,7 +56,7 @@ let Date8 = new Date(120000)
 console.log(Date8)
 
 
-/* javascript ISO standard time */
+/* JAVASCRIPT ISO STANDARD TIME */
 
 { 
     const dates = new Date(2023, 3, 16, 6, 15, 20)
@@ -69,7 +69,7 @@ console.log(Date8)
 
 /* JavaScript Date Formats */
 
-/* ISO Date , Short Date  , Long Date */
+/* ISO Date , Short Date , Long Date */
 
 {
     const dates = new Date("2024")

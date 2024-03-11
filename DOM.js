@@ -37,7 +37,8 @@
 //   document.getElementById('para1').innerHTML="Hello DOM !"
   document.getElementById('box-1').innerHTML="This is Div Tag"
   const model = document.getElementsByClassName('box')
-  console.log(model);
+  console.log(model)
+
   const element = document.getElementsByTagName('h1')
   function addText(){
     for(let i = 0; i < element.length; i++ ){
@@ -218,9 +219,9 @@ The name attribute of the <a> element is not supported in HTML5.
 {
     window.onload = () => {
         // create a couple of elements in an otherwise empty HTML page
-        const heading = document.createElement("h1");
+        const heading = document.createElement("h1")
         const headingText = document.createTextNode("Big Head!")
-        heading.appendChild(headingText);
-        document.body.appendChild(heading);
+        heading.appendChild(headingText)
+        document.body.appendChild(heading)
       }
 }

@@ -91,18 +91,18 @@ function greet(name, age) {
 let Id = setInterval(greet, 1000, "Anni", 22)
 console.log("This is ID", Id)
 
-setInterval (greet, 5000, "Anni", 22)
+setInterval(greet, 5000, "Anni", 22)
 
 
 {
     const updateTime = () => {
         const currentTime = new Date().toLocaleTimeString()
         console.log(`Current Time: ${currentTime}`)
-      }
-      
-      updateTime()
-      setInterval(updateTime, 3000)
-} 
+    }
+
+    updateTime()
+    setInterval(updateTime, 3000)
+}
 
 /* Javascript Asyncronous Method */
 
@@ -116,38 +116,38 @@ setInterval (greet, 5000, "Anni", 22)
     },delaytime
 )*/
 
-// function print(){
-//     console.log("Hello JavaScript");
-// }
-// setTimeout(print, 3000)
+function print() {
+    console.log("Hello JavaScript");
+}
+setTimeout(print, 3000)
 
-// let print = () => {
-//     console.log("SetTimeOut Method");
-// }
-// setTimeout(print, 3000)
+let print = () => {
+    console.log("SetTimeOut Method");
+}
+setTimeout(print, 3000)
 
-// setTimeout(
-//     function greet(){
-//         console.log("Hello Javascript")
-//     }, 3000 
-// )
+setTimeout(
+    function greet() {
+        console.log("Hello Javascript")
+    }, 3000
+)
 
-// setTimeout(
-//     () => console.log("Hello World"), 3000 
-// )
+setTimeout(
+    () => console.log("Hello World"), 3000
+)
 
-// function greet (name, age){
-//     console.log(Your name is ${name} and age ${age}) 
-// }
-// setTimeout(greet, 2000, "Mit", 18)
+function greet(name, age) {
+    console.log(`Your name is ${name} and age ${age}`)
+}
+setTimeout(greet, 2000, "Anni", 23)
 
 
 /* SetInterval */
 
-// setInterval(function, delay , parameter1, parameter2, .....)
+// setInterval(function, delay, parameter1, parameter2, .....)
 
 // setInterval(
-//     function print (){
+//     function print() {
 //         console.log("1")
 //     }, 2000
 // )
@@ -160,32 +160,32 @@ setInterval (greet, 5000, "Anni", 22)
 //     () => console.log("World"), 2000
 // )
 
-// function greet (name, age){
-//     console.log(Your name is ${name} and age ${age})
+// function greet(name, age) {
+//     console.log(`Your name is ${name} and age ${age}`)
 // }
-// setInterval(greet, 2000, "Mit", 18)
+// setInterval(greet, 2000, "Anni", 23)
 
 
 /* Current Time Print Every 3 Seconds */
 
 {
-    // function time(){
-    //     let datetime = new Date().toLocaleTimeString()
-    //     console.log(Current Time is ${datetime})
-    // }
+    function time() {
+        let datetime = new Date().toLocaleTimeString()
+        console.log(`Current Time is ${datetime}`)
+    }
 
-    // time()
-    // setInterval(time, 3000)
+    time()
+    setInterval(time, 3000)
 }
 
 
 /* SetInterval Id */
 
-// function greet (name, age){
-//     console.log(Your name is ${name} and age ${age})
+// function greet(name, age) {
+//     console.log(`Your name is ${name} and age ${age}`)
 // }
-// let Id =setInterval(greet , 1000, "Mit", 18)
-// console.log("This is ID " , Id)
+// let Id = setInterval(greet, 1000, "Anni", 23)
+// console.log("This is ID ", Id)
 
 
 
@@ -215,20 +215,20 @@ setInterval (greet, 5000, "Anni", 22)
 }
 
 // Program with a Promise
-// {
-//     const count = false
+{
+    const count = false
 
-//     let countValue = new Promise(function(resolve, reject){
-//         if(count){
-//             resolve("There is a count value.")
-//         }
-//         else{
-//             reject("There is no count value")
-//         }
-//     })
+    let countValue = new Promise(function (resolve, reject) {
+        if (count) {
+            resolve("There is a count value.")
+        }
+        else {
+            reject("There is no count value")
+        }
+    })
 
-//     console.log(countValue)
-// }
+    console.log(countValue)
+}
 
 // Javascript Promise Chaining
 
@@ -248,46 +248,46 @@ setInterval (greet, 5000, "Anni", 22)
 
 // Chaining the Promise with then()
 {
-    let countValue = new Promise(function (resolve, reject){
-        reject("Promise is not resolved");
-    });
+    let countValue = new Promise(function (resolve, reject) {
+        reject("Promise is not resolved")
+    })
 
     countValue
-        .then(function successValue(result){
+        .then(function successValue(result) {
             console.log(result)
         })
 
-        .then(function successValue1(){
+        .then(function successValue1() {
             console.log("You can call multiple functions this way.")
         })
 
-        // the then() method is used to chain the functions to the promise. the then() method is called when the promise is resolved successfully.
+    // the then() method is used to chain the functions to the promise. the then() method is called when the promise is resolved successfully.
 
-        //You can chain multiple then() methods with the promise.
+    //You can chain multiple then() methods with the promise.
 }
 
 // Javascript catch() method
 
 // The catch() method is used with the callback when the promise is rejected or if an error occurs.
 
-{
-    let countValue = new Promise (function(resolve, reject){
-        resolve("Promise is not rejected")
-    });
+// {
+//     let countValue = new Promise(function (resolve, reject) {
+//         resolve("Promise is not rejected")
+//     });
 
-    countValue.then(
-        function successValue(){
-            let text = 8*10
-            console.log(text)
-        },
-    )
+//     countValue.then(
+//         function successValue() {
+//             let text = 8 * 10
+//             console.log(text)
+//         },
+//     )
 
-    .catch(
-        function errorValue(result){
-            console.log(result)
-        }
-    )
-}
+//         .catch(
+//             function errorValue(result) {
+//                 console.log(result)
+//             }
+//         )
+// }
 
 // Javascript Promise Versus Callback
 
@@ -301,106 +301,109 @@ setInterval (greet, 5000, "Anni", 22)
 
 // Error handling is easier to manage.
 
-{
-    // api().then(function(result){
-    //     return api2()
-    // }).then(function(result2){
-    //     return api3()
-    // }).then(function(result3){
-    //     // do work
-    // }).catch(function(error){
-    //     // handle any error that my occur before this point
-    // })
-}
+// {
+//     api().then(function (result) {
+//         return api2()
+//     })
+//         .then(function (result2) {
+//             return api3()
+//         })
+//         .then(function (result3) {
+//             // do work
+//         })
+//         .catch(function (error) {
+//             // handle any error that my occur before this point
+//         })
+// }
 
 //JavaScript Callback
 // The syntax is difficult to understand.
 // Error handling may be hard to manage.
 {
-    // api(function(result){
-    //     api2(function(result2){
-    //         api3(function(result3){
-    //             // do work
-    //             if(error){
-    //                 // do something
-    //             }
-    //             else{
-    //                 // do something
-    //             }
-    //         })
-    //     })
-    // })
+    api(function (result) {
+        api2(function (result2) {
+            api3(function (result3) {
+                // do work
+                if (error) {
+                    // do something
+                }
+                else {
+                    // do something
+                }
+            })
+        })
+    })
 }
 
 // JavaScript finally() method
 
 // You can also use the finally() method with promises. The finally() method gets executed when the promise is either resolved successfully or rejected.
 {
-    let countValue = new Promise(function (resolve, reject){
+    let countValue = new Promise(function (resolve, reject) {
         reject()
     })
 
     countValue.finally(
-        function greet(){
+        function greet() {
             console.log('This code is executed.')
         }
     )
 
-    let promise = new Promise(function(resolve, reject){
+    let promise = new Promise(function (resolve, reject) {
         setTimeout(
-            function(){
+            function () {
                 console.log('Hello Promises');
                 // reject("This Task is Not Completed!")
                 resolve()
             }, 5000
         )
     })
-    
-    promise.then(function(){
+
+    promise.then(function () {
         setTimeout(
-            function(){
+            function () {
                 console.log("First Then Function")
             }, 1000
         )
     })
 
-    .then(function(){
-        setTimeout(
-            function(){
-                console.log("Second Then Function")
-            }, 5000
-        )
-    })
+        .then(function () {
+            setTimeout(
+                function () {
+                    console.log("Second Then Function")
+                }, 5000
+            )
+        })
 
-    .then(function(){
-        setTimeout(
-            function(){
-                console.log("Third Then Function")
-            }, 4000
-        )
-    })
+        .then(function () {
+            setTimeout(
+                function () {
+                    console.log("Third Then Function")
+                }, 4000
+            )
+        })
 
-    .then(function(){
-        setTimeout(
-            function(){
-                console.log("Fourth Then Function")
-            }, 5000
-        )
-    })
+        .then(function () {
+            setTimeout(
+                function () {
+                    console.log("Fourth Then Function")
+                }, 5000
+            )
+        })
 
-    .then(function(){
-        setTimeout(
-            function(){
-                console.log("Fifth Then Function")
-            }, 6000
-        )
-    })
+        .then(function () {
+            setTimeout(
+                function () {
+                    console.log("Fifth Then Function")
+                }, 6000
+            )
+        })
 
-    .catch(function(result){
-        console.log(result)
-    })
+        .catch(function (result) {
+            console.log(result)
+        })
 
-    .finally(function(){
-        console.log('The Asyncronous Task Complete!.')
-    })
+        .finally(function () {
+            console.log('The Asyncronous Task Complete!.')
+        })
 }

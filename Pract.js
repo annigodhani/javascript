@@ -152,7 +152,7 @@ console.log(Number2)
 let Number3 = "2002"
 let Number4 = Number1.padEnd(4, 0)
 console.log(Number4)
-console.log(typeof (Number4)) 
+console.log(typeof (Number4))
 
 let Number5 = parseFloat(Number4)
 console.log(Number5)
@@ -491,7 +491,7 @@ console.log("Number of vowels :", resultt)
 
         let day = now.getDay()
         console.log(day)
-        
+
         let hours = now.getHours()
         let minutes = now.getMinutes()
 
@@ -513,7 +513,7 @@ console.log("Number of vowels :", resultt)
 
 {
 
-    var word = ["Gopal", "Vijay", "Anni", "Hari", "Chirag", "Kartik", "Janak" , "Dhruvil"]
+    var word = ["Gopal", "Vijay", "Anni", "Hari", "Chirag", "Kartik", "Janak", "Dhruvil"]
 
     word.sort(function (a, v) {
         var LetterA = a.charAt(0)

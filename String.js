@@ -100,7 +100,7 @@ let String22 = String16.substring(10, -20)
 let String23 = String16.substring(-10, 7)
 
 console.log(String17)
-console.log(String18)
+console.log(String18)  
 console.log(String19)
 console.log(String20)
 console.log(String21)

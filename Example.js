@@ -1,4 +1,4 @@
-// // 1. ACP METHOD 
+// // 1. ........ACP METHOD.......... 
 
 // // // 1. Alert 
 // {
@@ -591,7 +591,8 @@
 //     console.log(studentsData)
 // }
 
-// /* 4. JavaScript Function and Function Expressions */
+/* 4. ........FUNCTION........ 
+JavaScript Function and Function Expressions */
 
 // // Basic Function..... 
 // {
@@ -731,4 +732,233 @@
 
 //     perf(45, 23, add)
 //     perf(5, 234, multiply)
+// }
+
+
+// /* 5. ............LOOPS...............*/
+// /*  javascript while loop */
+// {
+//     let i = 0
+
+//     while (i <= 10) {
+//         document.write("Anni" + "<br>")
+//         i++
+//     }
+// }
+
+// {
+//     let a = 10
+
+//     while (a >= 0) {
+//         document.write(a + " ")
+//         a--
+//     }
+//     document.write("<br>")
+// }
+
+// {
+//     let add = 0
+//     let b = 1
+
+//     while (b <= 10) {
+//         add += b
+//         b++
+//     }
+//     document.write(add + "<br>")
+// }
+
+// // JavaScript Do while loop
+// {
+//     let i = 1
+
+//     do {
+//         document.write("Anni" + "<br>")
+//         i++
+//     }
+//     while (i <= 10)
+// }
+
+// {
+//     let a = 10
+
+//     do {
+//         document.write(a + "\t")
+//         a--
+//     }
+//     while (a >= 0)
+//     document.write("<br>")
+// }
+
+// {
+//     let add = 0
+//     let b = 1
+
+//     do {
+//         document.write(b + "<br>")
+//         add += b
+//         b++
+//     }
+//     while (b <= 10)
+//     document.write(add + "<br>")
+// }
+
+// // javascript for loop
+// {
+//     let i = 0
+
+//     for (i; i <= 10; i++) {
+//         document.write("Anni" + "<br>")
+//     }
+// }
+
+// {
+//     let a = 10
+
+//     for (a; a > 0; a--) {
+//         document.write(a + "\t")
+//     }
+// }
+
+// {
+//     let add = 0
+//     let b = 1
+
+//     for (b; b <= 10; b++) {
+//         add += b
+//     }
+//     document.write(add + "\t")
+// }
+
+// // Break Statements.....
+// {
+//     for (let counter = 0; counter <= 100; counter++) {
+//         if (counter == 18) {
+//             break
+//         }
+//         document.write(counter)
+//         document.write("<br>")
+//     }
+// }
+
+// {
+//     let userInput
+
+//     while (true) {
+//         userInput = prompt("Enter a number (type 'exit' to stop loop):")
+
+//         if (userInput === "exit") {
+//             document.write("Exiting the loop based on user input." + "<br>")
+//             break
+//         }
+
+//         document.write("You entered: " + userInput + "<br>")
+//     }
+// }
+
+// {
+//     let arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]
+//     let k = 35
+
+//     for (let l = 0; l < arr.length; l++) {
+//         if (arr[l] === k) {
+//             document.write("Number found at index : ", l + "<br>")
+//             break
+//         }
+//     }
+
+// // Continue Statements...... 
+// {
+//     for (let counter = 1; counter <= 100; counter++) {
+//         if (counter == 16) {
+//             continue
+//         }
+//         if (counter == 35) {
+//             continue
+//         }
+//         if (counter == 55) {
+//             continue
+//         }
+//         if (counter == 75) {
+//             continue
+//         }
+//         document.write(counter)
+//         document.write("<br>")
+//     }
+// }
+
+// {
+//     let u = 1
+
+//     while (u <= 100) {
+//         if (u % 5 === 0) {
+//             u++
+//             continue
+//         }
+
+//         console.log(u)
+//         u++
+//     }
+// }
+
+// {
+//     let p = 1
+
+//     for (p = 1; p <= 20; p++) {
+//         if (p % 2 !== 0) {
+//             continue
+//         }
+//         document.write(p + "<br>")
+//     }
+// }
+
+// // Nested Statements.......
+// {
+//     const ani = (value) => {
+//         for (let a = value; a > 0; a--) {
+//             let semstring = ""
+//             for (let b = 1; b < a; b++) {
+//                 semstring += " "
+//             }
+//             for (let c = 0; c <= value - a; c++) {
+//                 semstring += "*"
+//             }
+//             document.write(semstring + "<br>")
+//         }
+//     }
+//     ani(20)
+// }
+
+// {
+//     link: for (let counter = 1; counter <= 10; counter++) {
+
+//         document.write(counter)
+//         document.write("<br>")
+
+//         for (let counter2 = 1; counter2 < 4; counter2++) {
+
+//             if (counter == 3) {
+//                 break link
+//             }
+//             document.write("Hello")
+//             document.write("<br>")
+//         }
+//     }
+// }
+
+// {
+//     function checkAge(age) {
+//         if (age >= 18) {
+//             return "You are an adult."
+//         }
+//         else if (age >= 13) {
+//             return "You are a teenager."
+//         }
+//         else {
+//             return "You are a child."
+//         }
+//     }
+
+//     console.log(checkAge(20))
+//     console.log(checkAge(15))
+//     console.log(checkAge(10))
 // }

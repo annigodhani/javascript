@@ -37,10 +37,11 @@ do{
 
 // let i = 11
 
-// do{
-//     document.write("Hello"+ "<br>")
+// do {
+//     document.write("Hello" + "<br>")
 //     i++
-// }while(i<=10)
+// }
+// while (i <= 10)
 
 
 

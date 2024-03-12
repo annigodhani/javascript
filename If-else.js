@@ -155,7 +155,7 @@ console.log(typeof(z))
   let r = [10, 50 ,30]
   let s = [100]
   let t = ["Hello" , "Hi"]
-  let u =function(){}
+  let u = function(){}
   let v = {}
 
   console.log(typeof(d))

@@ -962,3 +962,155 @@ JavaScript Function and Function Expressions */
 //     console.log(checkAge(15))
 //     console.log(checkAge(10))
 // }
+
+// /* 6. ...................Javascript Map Methods...................... */
+// {
+//     const Data = new Map([
+//         ["Name-1" , 'Anni'],
+//         ["Name-2" , 'Vijay'],
+//         ["Name-3" , 'Yash'],
+//         ["Name-4" , 'Hari']
+//     ])
+
+//     console.log(Data)
+//     console.log(Data.size)
+// }
+
+// // .....................GET METHOD.........................
+// {
+//     const newmap = new Map([
+//         ["Name-1" , "Anni"],
+//         ["Name-2" , "Yash"],
+//         ["Name-3" , "Kartik"]
+//     ])
+
+//     newmap.set("NAme-1" , "Vijay")
+//     console.log(newmap)
+//     console.log(newmap.get("Name-1"))
+// }
+
+// // ................SIZE METHOD....................
+// {
+//     const Data = new Map([
+//         ["Name-1" , 'Anni'],
+//         ["Name-2" , 'Yash'],
+//         ["Name-3" , 'Vijay'],
+//         ["Name-4" , 'Kartik'],
+//         ["Name-4" , 'Hari']
+//     ])
+//     const sizes = Data.size
+//     console.log(sizes)
+// }  
+
+//  // ..................DELETE METHOD......................
+// {
+//     const newmap = new Map([
+//         ["Name-1" , "Ekta"],
+//         ["Name-2" , "Aesha"],
+//         ["Name-3" , "Nidhi"],
+//         ["Name-4" , "Monika"],
+//         ["Name-5" , "Hasti"],
+//         ["Name-6" , "Shradha"]
+//     ])
+
+//    console.log(newmap)
+//    console.log(newmap.delete("Name-2"))
+//    console.log(newmap.delete("Name-4"))
+//    console.log(newmap)
+// } 
+
+// // ......................HAS METHOD........................
+// {
+//     const Data = new Map([
+//         ["Name-1" , 'Ekta'],
+//         ["Name-2" , 'Aesha'],
+//         ["Name-3" , 'Nidhi'],
+//         ["Name-4" , 'Monika'],
+//         ["Name-5" , 'Hasti'],
+//         ["Name-6" , 'Anni'],
+//         ["Name-7" , 'Yash'],
+//         ["Name-8" , 'Vijay'],
+//         ["Name-9" , 'Kartik'],
+//         ["Name-10" ,'Hari']
+//     ])
+//     console.log(Data)
+//     console.log(Data.has("Name-4"))
+//     console.log(Data.has("Name-11"))
+//     console.log(Data.has("Name-7"))
+// }
+
+// /* ..................Set Methods.................... */
+// // ..................SIZE METHOD....................
+// {
+//     const x = new Set([
+//         ["Name-1" , 'Ekta'],
+//         ["Name-2" , 'Aesha'],
+//         ["Name-3" , 'Nidhi'],
+//         ["Name-4" , 'Monika'],
+//         ["Name-5" , 'Hasti'],
+//         ["Name-6" , 'Anni'],
+//         ["Name-7" , 'Yash'],
+//         ["Name-8" , 'Vijay'],
+//         ["Name-9" , 'Kartik'],
+//         ["Name-10" ,'Hari']
+//     ])
+//     console.log(x)
+//     console.log(x.size)
+//   }
+
+//   // // ......................HAS METHOD........................
+// {
+//     const a = new Set([
+//         "Name-1" , "Ekta",
+//         "Name-2" , 'Aesha',
+//         "Name-3" , 'Nidhi',
+//         "Name-4" , 'Monika',
+//         "Name-5" , 'Hasti',
+//         "Name-6" , 'Anni',
+//         "Name-7" , 'Yash',
+//         "Name-8" , 'Vijay',
+//         "Name-9" , 'Kartik',
+//         "Name-10" ,'Hari'
+//     ])
+//     console.log(a)
+//     console.log(a.has("Name-1"))
+//     console.log(a.has("Name-11"))
+//     console.log(a.has("Name-7"))
+// }
+
+// // .......................VALUES OF METHOD.........................
+// {
+//     const a = new Set([
+//         "Name-1" , "Ekta",
+//         "Name-2" , 'Aesha',
+//         "Name-3" , 'Nidhi',
+//         "Name-4" , 'Monika',
+//         "Name-5" , 'Hasti',
+//         "Name-6" , 'Anni',
+//         "Name-7" , 'Yash',
+//         "Name-8" , 'Vijay',
+//         "Name-9" , 'Kartik',
+//         "Name-10" ,'Hari'
+//     ])
+//     let y = a.values()
+//     console.log(y)
+// }
+
+// // .......................DELETE METHOD.........................
+// {
+//     const a = new Set([
+//         "Name-1" , "Ekta",
+//         "Name-2" , 'Aesha',
+//         "Name-3" , 'Nidhi',
+//         "Name-4" , 'Monika',
+//         "Name-5" , 'Hasti',
+//         "Name-6" , 'Anni',
+//         "Name-7" , 'Yash',
+//         "Name-8" , 'Vijay',
+//         "Name-9" , 'Kartik',
+//         "Name-10" ,'Hari'
+//     ])
+//     let y = a.delete("Name-4")
+//     console.log(y)
+//     console.log(a)
+// }

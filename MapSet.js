@@ -198,7 +198,7 @@ size	Returns the number of elements in a Set
   {
     const x = new Set(["a" , "b" , "c"])
     
-    let y = x.has("a")
+    let y = x.has("d")
   
     console.log(y)
   }

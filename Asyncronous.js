@@ -70,16 +70,16 @@ setInterval(greet, 2000, "Anni", 22)
 
 /* Current Time Print Every 3 Seconds */
 
-{
-    let datetime = new Date().toLocaleTimeString()
+// {
+//     let datetime = new Date().toLocaleTimeString()
 
-    function time(date) {
-        console.log(`Current Time ${date}`)
-    }
+//     function time(date) {
+//         console.log(`Current Time ${date}`)
+//     }
 
-    time(datetime)
-    setInterval(time, 3000)
-}
+//     time(datetime)
+//     setInterval(time, 3000)
+// }
 
 
 /* SetInterval Td */

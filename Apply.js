@@ -4,7 +4,7 @@
     const NewObj = {
         firstName: 'Taylor',
         lastName: 'Jackson'
-    }
+    } 
 
     function grow(wish, message) {
         return `${this.firstName} , ${wish}. ${message}`

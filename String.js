@@ -100,7 +100,7 @@ let String22 = String16.substring(10, -20)
 let String23 = String16.substring(-10, 7)
 
 console.log(String17)
-console.log(String18)  
+console.log(String18)
 console.log(String19)
 console.log(String20)
 console.log(String21)
@@ -296,8 +296,37 @@ let String61 = String60.endsWith(" ")
 console.log(String61)
 
 
-/******  String match() ******/
-
 /* After Regx */
 
-/******  String matchall()/ remider with array ******/
+/******  String match() ******/
+
+{
+    const Str = "Good Morning , how are You! you are lazy person"
+
+    const Str1 = /[a-z]/g
+
+    const Match = Str.match(Str1)
+
+    console.log(Match)
+}
+
+/******  String matchall() ******/
+
+{
+    const regexp = /[a-z]/g
+    const str = 'Aniruddh Godhani'
+
+    const array = [...str.matchAll(regexp)]
+
+    console.log(array)
+    console.log(array[1])
+    console.log(array[2])
+    console.log(array[3])
+    console.log(array[4])
+    console.log(array[5])
+    console.log(array[6])
+    console.log(array[7])
+    console.log(array[8])
+    console.log(array[9])
+    console.log(array[10])
+}

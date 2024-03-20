@@ -499,7 +499,7 @@ console.log(arry)
 {
     const value1 = (currentValue) => currentValue > 18
 
-    const Numbers1 = [45, 89, 18, 19, 5, 22, 34, 56, 100]
+    const Numbers1 = [45, 89, 18, 19, 22, 34, 56, 100]
 
     console.log(Numbers1.every(value1))
 }

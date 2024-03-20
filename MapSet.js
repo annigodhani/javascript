@@ -219,3 +219,8 @@ size	Returns the number of elements in a Set
     console.log(y)
     console.log(x)
   }
+
+
+  const fruits = ["Apple", "Banana", "Watermelon", , "Lichi"]
+const fruits_len = fruits.map((ele) => ele.length)
+console.log(fruits.len)

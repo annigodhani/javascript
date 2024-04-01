@@ -1,19 +1,75 @@
 {
-   "array" : [
-        {"id": 1, "Name": "Yash", "age": 24 },
-        {"id": 2, "Name": "Ani", "age": 22 },
-        {"id": 3, "Name": "Kartik", "age": 25 },
-        {"id": 4, "Name": "Aesha", "age": 23 },
-        {"id": 5, "Name": "Ekta", "age": 22 },
-        {"id": 6, "Name": "Gopal", "age": 26 },
-        {"id": 7, "Name": "Nidhi", "age": 21 },
-        {"id": 8, "Name": "Monika", "age": 20 },
-        {"id": 9, "Name": "Mansi", "age": 26 },
-        {"id": 10, "Name": "Nikunaj", "age": 24 },
-        {"id": 11, "Name": "Monisha", "age": 30 },
-        {"id": 12, "Name": "Kevil", "age": 34 }
-      ]  
+  "array": [
+    {
+      "id": 1,
+      "Name": "Yash",
+      "age": 24
+    },
+
+    {
+      "id": 2,
+      "Name": "Ani",
+      "age": 22
+    },
+
+    {
+      "id": 3,
+      "Name": "Kartik",
+      "age": 25
+    },
+
+    {
+      "id": 4,
+      "Name": "Aesha",
+      "age": 23
+    },
+
+    {
+      "id":  5,
+      "Name": "Ekta",
+      "age": 22
+    },
+
+    {
+      "id": 6,
+      "Name": "Gopal",
+      "age": 26
+    },
+
+    {
+      "id": 7,
+      "Name": "Nidhi",
+      "age": 21
+    },
+
+    {
+      "id": 8,
+      "Name": "Monika",
+      "age": 20
+    },
+
+    {
+      "id": 9,
+      "Name": "Mansi",
+      "age": 26
+    },
+
+    {
+      "id": 10,
+      "Name": "Nikunaj",
+      "age": 24
+    },
+
+    {
+      "id": 11,
+      "Name": "Monisha",
+      "age": 30
+    }, 
+
+    {
+      "id": 12,
+      "Name": "Kevil",
+      "age": 34
+    }
+  ]
 }
-    
-      
-    
